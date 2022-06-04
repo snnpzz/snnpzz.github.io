@@ -2,6 +2,17 @@ html {
   font-family: 'Noto Sans', sans-serif;
 }
 
+@media (min-width: 48em) {
+  html {
+    font-size: 15px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 18px;
+  }
+}
+
 .copyright {
   font-size: 15px;
 }
