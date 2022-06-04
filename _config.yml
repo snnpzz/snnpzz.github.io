@@ -8,13 +8,17 @@ permalink:        pretty
 # Setup
 title:            Hyde
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'I am a computer science Ph.D. student at KTH Royal Institute of Technology.'
+# url:              http://hyde.getpoole.com
 url:              https://snnpzz.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+#   name:           'Mark Otto'
+  name:           'Susanna Pozzoli'
+#   url:            https://twitter.com/mdo
+  url:            https://twitter.com/snnpzz
 
 paginate:         5
 
