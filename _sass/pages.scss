@@ -17,6 +17,12 @@ html {
   font-size: 15px;
 }
 
+.e-mail:before {
+  content: attr(username) "\0040" attr(domain);
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
 .lead {
   font-size: 21px;
 }
