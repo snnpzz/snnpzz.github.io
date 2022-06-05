@@ -17,8 +17,8 @@ html {
   font-size: 15px;
 }
 
-.e-mail {
-  content: attr(username) "\0040" attr(domain);
+.e-mail:after {
+  content: attr(domain) "\0040" attr(username);
   direction: rtl;
   unicode-bidi: bidi-override;
 }
