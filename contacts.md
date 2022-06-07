@@ -13,7 +13,7 @@ title: Contacts
 <a href="www.linkedin.com/in/snnpzz">LinkedIn</a>
 
 <i class="fa-brands fa-orcid"></i>
-<a href=" https://orcid.org/0000-0002-6899-6209">ORCID iD</a>
+<a href="https://orcid.org/0000-0002-6899-6209">ORCID iD</a>
 
 <i class="fa-brands fa-twitter"></i>
 <a href="https://twitter.com/snnpzz">Twitter</a>
