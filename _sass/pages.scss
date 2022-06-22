@@ -27,6 +27,21 @@ html {
   unicode-bidi: bidi-override;
 }
 
+.footer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer i {
+  background-color: transparent;
+  fill: #fff;
+  margin-bottom: 3.75px;
+  margin-top: 3.75px;
+  width: 15px;
+}
+
 .lead {
   font-size: 21px;
 }
