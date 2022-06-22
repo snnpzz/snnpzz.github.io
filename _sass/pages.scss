@@ -17,10 +17,6 @@ html {
   }
 }
 
-.copyright {
-  font-size: 15px;
-}
-
 .e-mail:after {
   content: attr(domain) "\0040" attr(username);
   direction: rtl;
@@ -31,15 +27,13 @@ html {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
+  font-size: 15px;
   justify-content: space-between;
 }
 
 .footer i {
   background-color: transparent;
   fill: #fff;
-  font-size: 15px;
-  height: 20px;
-  line-height: 20px;
 }
 
 .lead {
