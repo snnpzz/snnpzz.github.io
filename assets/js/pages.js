@@ -21,9 +21,6 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
   const svg = d3.select("#waffle")
     .append("svg")
     .attr("viewBox", [0, 0, width, height]);
-  
-  width -= (num_years - 1) * paddingInner;
-  height = 12 * width / num_years + 11 * paddingInner;
 
   const xBand = d3.scaleBand()
     .domain(years)
