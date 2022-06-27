@@ -7,7 +7,7 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
   const paddingInner = 5;
   const margin = { bottom: 15, left: 15, right: 15, top: 15 };
 
-  const data = await d3.json("/assets/months.json").months;
+  const data = await d3.json("/assets/months.json");
 
   const [min_year, max_year] = d3.extent(data, d => d.year);
   const years = d3.range(min_year, max_year + 1, 1);
