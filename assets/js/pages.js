@@ -31,7 +31,7 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
     .range([0, height])
     .paddingInner(paddingInner);
 
-  width /= num_years;
+  width = (width - (num_years - 1) * paddingInner) / num_years;
   height = width;
 
   svg.append("g")
