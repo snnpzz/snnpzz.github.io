@@ -4,7 +4,7 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
 
 
 (async () => {
-  const paddingInner = 5;
+  const paddingInner = 0.1;
 
   const data = await d3.json("/assets/months.json");
 
@@ -31,7 +31,7 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
     .range([0, height])
     .paddingInner(paddingInner);
 
-  width = (width - (num_years - 1) * paddingInner) / num_years;
+  width = xBand.bandwidth();
   height = width;
 
   svg.append("g")
