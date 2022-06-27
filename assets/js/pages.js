@@ -5,7 +5,6 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
 
 (async () => {
   const paddingInner = 5;
-  const margin = { bottom: 15, left: 15, right: 15, top: 15 };
 
   const data = await d3.json("/assets/months.json");
 
@@ -22,9 +21,9 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
   const svg = d3.select("#waffle")
     .append("svg")
     .attr("viewBox", [0, 0, width, height]);
-
-  width = width - (margin.left + margin.right) - (num_years - 1) * paddingInner;
-  height = 12 * width / num_years;
+  
+  width -= (num_years - 1) * paddingInner;
+  height = 12 * width / num_years + 11 * paddingInner;
 
   const xBand = d3.scaleBand()
     .domain(years)
@@ -35,11 +34,10 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
     .range([0, height])
     .paddingInner(paddingInner);
 
-  width = width / num_years;
+  width /= num_years;
   height = width;
 
   svg.append("g")
-      .attr("transform", `translate(${margin.left},${margin.top})`)
     .selectAll("rect")
     .data(data)
     .join("rect")
