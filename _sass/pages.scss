@@ -17,6 +17,10 @@ html {
   }
 }
 
+li {
+  list-style-type: "—";
+}
+
 .e-mail:after {
   content: attr(domain) "\0040" attr(username);
   direction: rtl;
