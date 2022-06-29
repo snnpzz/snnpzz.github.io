@@ -12,7 +12,7 @@ I am doing a Ph.D. in Computer Science at KTH Royal Institute of Technology.
 <ul>
   <li>
     <p>
-      <strong>Doctoral Student</strong> · KTH Royal Institute of Technology
+      <strong>Doctoral Student</strong> &middot; KTH Royal Institute of Technology
       <br>
       Jun 2019&ndash;Present
     </p>
