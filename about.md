@@ -54,7 +54,7 @@ I have a BSc in Engineering of Computing Systems and an MSc in Computer Science 
   </li>
 </ul>
 
-# About the Site
+## About the Site
 
 * Hosted by [GitHub Pages](https://pages.github.com/)
 * Powered by [Jekyll](https://jekyllrb.com/) and [Hyde](https://hyde.getpoole.com/)
