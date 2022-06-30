@@ -7,7 +7,7 @@ title: Publications
 
 <div class="callout">
   S. Pozzoli and S. Girdzijauskas, "Not Only Degree Matters: Diffusion-Driven Role Recognition," in *Open Challenges in Online Social Networks (OASIS &apos;22)*, Barcelona, Spain, 2022, pp. 16&ndash;24, doi: [10.1145/3524010.3539497](https://doi.org/10.1145/3524010.3539497).
-<div>
+</div>
 
 ## Domain Expertise&ndash;Agnostic Feature Selection for the Analysis of Breast Cancer Data
 
