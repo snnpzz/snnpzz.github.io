@@ -36,6 +36,12 @@ li {
   padding: 1rem;
 }
 
+@media (min-width: 48em) {
+  .content {
+    max-width: 42rem;
+  }
+}
+
 .e-mail:after {
   content: attr(domain) "\0040" attr(username);
   direction: rtl;
