@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Projects
+title: Publications
 ---
-
-## Publications
 
 ### Not Only Degree Matters: Diffusion-Driven Role Recognition
 
