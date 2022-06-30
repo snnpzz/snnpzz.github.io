@@ -2,19 +2,12 @@ body {
   color: #000;
 }
 
-html {
-  font-family: 'Noto Sans', sans-serif;
+h3 {
 }
 
-@media (min-width: 48em) {
-  html {
-    font-size: 15px;
-  }
-}
-@media (min-width: 58em) {
-  html {
-    font-size: 18px;
-  }
+html {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
 }
 
 li {
@@ -39,7 +32,7 @@ li {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
-  font-size: 15px;
+  font-size: 14px;
   justify-content: space-between;
 }
 
@@ -68,7 +61,7 @@ li {
 }
 
 .sidebar-nav-item {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #particles-js {
