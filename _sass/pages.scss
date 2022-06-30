@@ -2,7 +2,16 @@ body {
   color: #000;
 }
 
+h1 {
+  font-size: 33px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
 h3 {
+  font-size: 21px;
 }
 
 html {
@@ -55,9 +64,17 @@ li {
   font-size: 21px;
 }
 
+.page-title {
+  font-size: 33px;
+}
+
+.post-title {
+  font-size: 33px;
+}
+
 .sidebar-about h1 {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 39px;
+  font-size: 33px;
 }
 
 .sidebar-nav-item {
