@@ -19,7 +19,7 @@ h4 {
 }
 
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
 }
 
@@ -81,6 +81,7 @@ li {
 
 .lead {
   font-size: 18px;
+  font-weight: 400;
 }
 
 @media (max-width: 48em) {
@@ -91,13 +92,21 @@ li {
 }
 
 .sidebar-about h1 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.sidebar-nav {
+  font-family: 'Source Code Pro', monospace;
 }
 
 .sidebar-nav-item {
   font-size: 16px;
+}
+
+.sidebar-nav-item.active {
+  font-weight: 600;
 }
 
 .title {
