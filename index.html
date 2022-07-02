@@ -4,44 +4,16 @@ title: Home
 ---
 
 <div class="bio">
-  <h1 class="title">Hey there!</h1>
+  <h1>👋🏻 Hey there!</h1>
   <p>I'm Susanna, an Italian Ph.D. student in Computer Science living in Stockholm.</p>
+  <p>I'm working for the Division of Software and Computer Systems of KTH Royal Institute of Technology.</p>
+  <p>I have a B.Sc. in Engineering of Computing Systems and an M.Sc. in Computer Science and Engineering from Politecnico di Milano as well as an M.Sc. in ICT Innovation from KTH Royal Institute of Technology.</p>
 </div>
 
-<div class="updates">
-  <h1 class="title">Updates</h1>
-  <p><b>Jun 27, 2022</b> If you're attending HT '22, I'll present our paper "Not Only Degree Matters: Diffusion-Driven Role Recognition" at 11 AM tomorrow.</p>
-</div>
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+<div class="announcements">
+  <h1>📣 Announcements</h1>
+  <div class="announcement">
+    If you're attending HT '22, I'll present our paper "Not Only Degree Matters: Diffusion-Driven Role Recognition" at 11:00 AM on Tuesday, June 28.
+    <div class="date">Jun 27, 2022</div>
   </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.url }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.url }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.url }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>
