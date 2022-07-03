@@ -36,6 +36,10 @@ li {
   padding-inline-start: 1em;
 }
 
+.announcement {
+  margin-bottom: .5rem;
+}
+
 .bio {
   margin-bottom: 4rem;
 }
@@ -132,7 +136,7 @@ li {
 }
 
 #particles-js {
-  background-color: #202020;
+  background-color: #000;
   background-image: url("");
   background-size: cover;
   background-position: 50% 50%;
