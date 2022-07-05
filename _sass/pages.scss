@@ -40,6 +40,7 @@ html {
 }
 
 li {
+  color: #ff0bac;
   list-style-type: "—";
   padding-inline-start: 1em;
 }
@@ -54,6 +55,7 @@ li {
 
 .date {
   color: #ff0bac;
+  font-weight: 500;
 }
 
 .callout {
@@ -134,6 +136,7 @@ li {
 }
 
 .sidebar-nav-item.active {
+  color: #fff;
   font-weight: 600;
 }
 
