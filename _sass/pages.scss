@@ -40,21 +40,9 @@ html {
 }
 
 li {
+  color: #ff0bac;
   list-style-type: "—";
   padding-inline-start: 1em;
-}
-
-ul {
-  list-style: none;
-}
-
-ul li::before {
-  content: "—";
-  color: #ff0bac;
-  font-weight: 600;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 .announcement {
@@ -150,6 +138,10 @@ ul li::before {
 .sidebar-nav-item.active {
   color: #fff;
   font-weight: 600;
+}
+
+.text-black {
+  color: #000;
 }
 
 .title {
