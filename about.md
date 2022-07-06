@@ -54,7 +54,7 @@ title: About
 
 <ul>
   <li>
-    <p class="text-black">
+    <p class="mb-0 text-black">
       Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
     </p>
   </li>
