@@ -66,14 +66,14 @@ li {
   padding: 1rem;
 }
 
+.container {
+  max-width: 48rem;
+}
+
 .content {
+  max-width: 48rem;
   padding-bottom: 3rem;
   padding-top: 3rem;
-}
-@media (min-width: 48em) {
-  .content {
-    margin-right: 20rem;
-  }
 }
 
 .e-mail:after {
@@ -102,12 +102,6 @@ li {
 .footer i {
   background-color: transparent;
   fill: #fff;
-}
-
-@media (min-width: 48em) {
-  .layout-reverse .content {
-    margin-left: 20rem;
-  }
 }
 
 .lead {
