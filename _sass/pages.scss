@@ -2,14 +2,12 @@ a {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 500;
   text-decoration: underline;
-  text-decoration-color: rgba(0, 0, 0, 0.5);
 }
 
 a:hover {
   color: #000;
   font-weight: 500;
   text-decoration: underline;
-  text-decoration-color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,7 +32,7 @@ h4 {
 }
 
 html {
-  color: #202020;
+  color: #000;
   font-family: 'Source Code Pro', monospace;;
   font-size: 16px;
 }
@@ -121,14 +119,20 @@ li {
   }
 }
 
+.sidebar a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.sidebar a:focus, a:hover {
+  text-decoration: underline;
+}
+
 .sidebar-about h1 {
   font-family: 'Source Code Pro', monospace;
   font-size: 30px;
-  font-weight: 600;
-}
-
-.sidebar-nav {
-  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
 }
 
 .sidebar-nav-item {
