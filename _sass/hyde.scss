@@ -139,7 +139,7 @@ a.sidebar-nav-item:focus {
   .content {
     /* max-width: 38rem; */
     margin-left: 20rem;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
   }
 }
 
@@ -165,18 +165,19 @@ a.sidebar-nav-item:focus {
     right: 0;
   }
   .layout-reverse .content {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     margin-right: 20rem;
   }
 }
 
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
+/*
+ * @media (min-width: 64em) {
+ *   .layout-reverse .content {
+ *     margin-left: 4rem;
+ *     margin-right: 22rem;
+ *   }
+ * }
+ */
 
 
 /*

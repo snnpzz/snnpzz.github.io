@@ -72,7 +72,7 @@ li {
 }
 @media (min-width: 48em) {
   .content {
-    max-width: 42rem;
+    margin-right: 20rem;
   }
 }
 
@@ -104,14 +104,20 @@ li {
   fill: #fff;
 }
 
-.mb-0 {
-  margin-bottom: 0;
+@media (min-width: 48em) {
+  .layout-reverse .content {
+    margin-left: 20rem;
+  }
 }
 
 .lead {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 @media (max-width: 48em) {
