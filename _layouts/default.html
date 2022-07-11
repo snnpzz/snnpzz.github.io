@@ -4,13 +4,13 @@
   {% include head.html %}
 
   <body>
-
     {% include sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
+    <div class="wrapper">
+      {% include header.html %}
+      <div class="content container">
+        {{ content }}
+      </div>
     </div>
-  
     <script src="{{ site.url }}/assets/js/d3.min.js"></script>
     <script src="{{ site.url }}/assets/js/particles.js"></script>
     <script src="{{ site.url }}/assets/js/pages.js"></script>

@@ -2,6 +2,21 @@ particlesJS.load("particles-js", "/assets/particlesjs-config.json", function() {
   console.log("[particles.js] Loaded particlesjs-config.json");
 });
 
+(function(document) {
+  var label = document.querySelector(".menu-icon-label");
+  var sidebar = document.querySelector("#sidebar");
+  var checkbox = document.querySelector("#menu-icon-checkbox");
+
+  document.addEventListener("click", function(e) {
+    var target = e.target;
+
+    if(!checkbox.checked ||
+       sidebar.contains(target) ||
+       (target === checkbox || target === label)) return;
+
+    checkbox.checked = false;
+  }, false);
+})(document);
 
 (async () => {
   const paddingInner = 0.1;

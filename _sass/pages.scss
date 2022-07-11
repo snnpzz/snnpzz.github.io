@@ -102,6 +102,14 @@ li {
   fill: #fff;
 }
 
+.header {
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
 .lead {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
@@ -156,6 +164,11 @@ li {
   font-size: 32px;
   margin-bottom: 1rem;
   margin-top: 0;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
 }
 
 #particles-js {
