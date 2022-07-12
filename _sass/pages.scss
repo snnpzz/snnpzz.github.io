@@ -198,7 +198,7 @@ li {
 }
 
 .sidebar {
-  background-color: #202020;
+  background-color: transparent;
   bottom: 0;
   color: rgba(255,255,255,.6);
   font-family: "Source Code Pro", monospace;
@@ -215,7 +215,6 @@ li {
 
 @media (max-width: 48em) {
   .sidebar {
-    background-color: transparent;
     position: relative;
   }
 }
