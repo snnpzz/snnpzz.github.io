@@ -69,13 +69,11 @@ li {
 }
 
 .container {
-  max-width: 48rem;
-}
-
-.content {
-  max-width: 48rem;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .e-mail:after {
@@ -301,4 +299,8 @@ li {
     top: 0;
     width: 18rem;
   }
+}
+
+.author-name {
+  font-family: "Source Sans", sans-serif;
 }
