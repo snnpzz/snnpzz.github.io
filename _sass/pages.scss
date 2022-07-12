@@ -112,6 +112,14 @@ li {
   padding-top: 1rem;
 }
 
+.header-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .lead {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
@@ -302,5 +310,13 @@ li {
 }
 
 .author-name {
+  color: rgba(0, 0, 0, .5);
   font-family: "Source Sans", sans-serif;
+}
+
+.title {
+  color: #000;
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  text-decoration: none;
 }
