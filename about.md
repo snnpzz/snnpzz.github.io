@@ -60,7 +60,7 @@ title: About
   </li>
   <li>
     <p class="text-black">
-      Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://hyde.getpoole.com/" target="_blank">Hyde</a>
+      Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and a Frankestein I created from <a href="https://hyde.getpoole.com/" target="_blank">Hyde</a> and <a href="https://lanyon.getpoole.com/" target="_blank">Lanyon</a>.
     </p>
   </li>
 </ul>

@@ -197,17 +197,7 @@ li {
           transition: transform .3s ease-in-out;
 }
 
-#menu-icon-checkbox:checked + .sidebar {
-  z-index: 10;
-  visibility: visible;
-}
-#menu-icon-checkbox:checked ~ .sidebar,
-#menu-icon-checkbox:checked ~ .wrapper,
-#menu-icon-checkbox:checked ~ .menu-icon-label {
-  -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
-}
+
 
 .sidebar {
   background-color: #202020;
@@ -223,11 +213,6 @@ li {
   width: 14rem;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
-}
-@media (min-width: 30em) {
-  .sidebar {
-    font-size: .75rem; /* 14px */
-  }
 }
 
 @media (max-width: 48em) {
@@ -319,4 +304,17 @@ li {
   font-family: "Source Code Pro", monospace;
   font-size: 30px;
   text-decoration: none;
+}
+
+#menu-icon-checkbox:checked + .sidebar {
+  z-index: 10;
+  visibility: visible;
+}
+
+#menu-icon-checkbox:checked ~ .sidebar,
+#menu-icon-checkbox:checked ~ .wrapper,
+#menu-icon-checkbox:checked ~ .menu-icon-label {
+  -webkit-transform: translateX(14rem);
+      -ms-transform: translateX(14rem);
+          transform: translateX(14rem);
 }

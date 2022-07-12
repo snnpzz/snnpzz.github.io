@@ -1,6 +1,8 @@
+<input type="checkbox" id="menu-icon-checkbox" class="menu-icon-checkbox">
+
 <div class="sidebar" id="sidebar">
   <div id="particles-js"></div>
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.url }}">
@@ -12,11 +14,6 @@
 
     <nav class="sidebar-nav">
       <!-- <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a> -->
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
