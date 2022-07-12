@@ -1,34 +1,21 @@
-# Dependencies
+author:
+  name:           "Susanna Pozzoli"
+  url:            https://twitter.com/snnpzz
+description:      "CS PhD Student @ KTH"
+google_analytics: G-WRXEFS3BQQ
+paginate:         5
+title:            "@snnpzz"
+url:              https://snnpzz.github.io
+
+sass:
+  sass_dir:       _sass
+
+# Conversion
 markdown:         redcarpet
 highlighter:      pygments
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-# title:            Hyde
-title:            "@snnpzz"
-tagline:          'A Jekyll theme'
-# description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-description:      "CS PhD Student @ KTH"
-# url:              http://hyde.getpoole.com
-url:              https://snnpzz.github.io
+# Serving
 baseurl:          /
 
-author:
-#   name:           'Mark Otto'
-  name:           "Susanna Pozzoli"
-#   url:            https://twitter.com/mdo
-  url:            https://twitter.com/snnpzz
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
-  
-google_analytics: G-WRXEFS3BQQ
-sass:
-  sass_dir:       _sass
+# Outputting
+permalink:        pretty
