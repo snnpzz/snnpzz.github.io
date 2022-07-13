@@ -76,42 +76,10 @@ li {
   padding-right: 1rem;
 }
 
-.copyright {
-  color: rgba(255, 255, 255, .5);
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
-}
-
 .e-mail:after {
   content: attr(domain) "\0040" attr(username);
   direction: rtl;
   unicode-bidi: bidi-override;
-}
-
-.header {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-.header-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 42rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.site-description {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.mb-0 {
-  margin-bottom: 0;
 }
 
 .menu-icon-checkbox {
@@ -181,28 +149,6 @@ li {
           transition: transform .3s ease-in-out;
 }
 
-.sidebar {
-  background-color: transparent;
-  bottom: 0;
-  color: rgba(255,255,255,.6);
-  font-family: "Source Code Pro", monospace;
-  font-size: 16px;
-  left: -18rem;
-  overflow-y: auto;
-  position: fixed;
-  top: 0;
-  visibility: hidden;
-  width: 18rem;
-  -webkit-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out;
-}
-
-@media (max-width: 48em) {
-  .sidebar {
-    position: relative;
-  }
-}
-
 .sidebar a {
   color: #fff;
   font-weight: 500;
@@ -232,47 +178,6 @@ li {
   font-weight: 600;
 }
 
-.text-black {
-  color: #000;
-}
-
-.title {
-  font-size: 32px;
-  margin-bottom: 1rem;
-  margin-top: 0;
-}
-
-.wrapper {
-  position: relative;
-  width: 100%;
-}
-
-#particles-js {
-  background-color: #000;
-  background-image: url("");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-}
-
-.author-name {
-  color: rgba(0, 0, 0, .5);
-  font-family: "Source Sans", sans-serif;
-}
-
-.title {
-  color: #000;
-  font-family: "Source Code Pro", monospace;
-  font-size: 30px;
-  text-decoration: none;
-}
-
 #menu-icon-checkbox:checked + .sidebar {
   z-index: 10;
   visibility: visible;
@@ -284,4 +189,113 @@ li {
   -webkit-transform: translateX(18rem);
       -ms-transform: translateX(18rem);
           transform: translateX(18rem);
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+    border-top: 1px solid #7f7f7f;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/*
+ * Header
+ */
+
+.author-name {
+    color: rgba(0, 0, 0, .5);
+    font-family: "Source Sans", sans-serif;
+    font-size: 16px;
+}
+
+.header {
+  border-bottom: 1px solid #7f7f7f;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.header-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.title {
+    color: #000;
+    font-family: "Source Code Pro", monospace;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+/*
+ * Sidebar
+ */
+
+.copyright {
+    color: rgba(255, 255, 255, .5);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+
+.sidebar {
+    background-color: transparent;
+    bottom: 0;
+    color: rgba(255, 255, 255, .5);
+    font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+    left: -18rem;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 18rem;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.site-description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#particles-js {
+    background-color: #000;
+    background-image: url("");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/*
+ * Utilities
+ */
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.text-black {
+    color: #000;
+}
+
+/*
+ * Wrapper
+ */
+
+.wrapper {
+    position: relative;
+    width: 100%;
 }
