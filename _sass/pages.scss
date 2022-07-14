@@ -213,11 +213,14 @@ li {
     font-size: 14px;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    position: relative;
 }
 
 .footer-container {
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .footer .col {
