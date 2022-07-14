@@ -195,10 +195,28 @@ li {
  * Footer
  */
 
+ .author {
+    list-style: none;
+    margin-left: 0;
+ }
+
 .footer {
-    border-top: 1px solid #7f7f7f;
+    border-top: 1px solid #e8e8e8;
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
     padding-bottom: 1rem;
     padding-top: 1rem;
+}
+
+.footer-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.row {
+    display: flex;
 }
 
 /*
@@ -212,7 +230,7 @@ li {
 }
 
 .header {
-  border-bottom: 1px solid #7f7f7f;
+  border-bottom: 1px solid #e8e8e8;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
