@@ -195,9 +195,11 @@ li {
  * Footer
  */
 
- .author {
+ .author ul {
     list-style: none;
+    margin-bottom: 1rem;
     margin-left: 0;
+    padding-left: 0;
  }
 
  .author li {
@@ -216,8 +218,6 @@ li {
 .footer-container {
     margin-left: auto;
     margin-right: auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
 }
 
 .footer .col {
