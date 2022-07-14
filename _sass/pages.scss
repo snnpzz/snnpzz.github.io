@@ -213,12 +213,12 @@ li {
     font-size: 14px;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    position: relative;
 }
 
 .footer-container {
     margin-left: auto;
     margin-right: auto;
+    max-width: 42rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -229,7 +229,6 @@ li {
 
 .footer .row {
     display: flex;
-    justify-content: space-between;
 }
 
 /*
