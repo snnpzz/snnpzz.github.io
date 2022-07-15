@@ -76,12 +76,6 @@ li {
   padding-right: 1rem;
 }
 
-.e-mail:after {
-  content: attr(domain) "\0040" attr(username);
-  direction: rtl;
-  unicode-bidi: bidi-override;
-}
-
 .menu-icon-checkbox {
   opacity: 0;
   position: absolute;
@@ -191,6 +185,22 @@ li {
           transform: translateX(18rem);
 }
 
+.e-mail {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.e-mail:after {
+  content: attr(domain) "\0040" attr(username);
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.e-mail:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
 /*
  * Footer
  */
@@ -209,7 +219,8 @@ li {
 
 .footer {
     border-top: 1px solid #e8e8e8;
-    color: rgba(255, 255, 255, .5);
+    color: #828282;
+    font-family: "Source Sans", sans-serif;
     font-size: 14px;
     padding-bottom: 1rem;
     padding-top: 1rem;
