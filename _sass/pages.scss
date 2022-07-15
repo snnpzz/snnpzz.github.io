@@ -143,35 +143,6 @@ li {
           transition: transform .3s ease-in-out;
 }
 
-.sidebar a {
-  color: #fff;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.sidebar a:focus, a:hover {
-  text-decoration: underline;
-}
-
-.sidebar-about h1 {
-  font-family: 'Source Code Pro', monospace;
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.sidebar-nav-item {
-  font-size: 16px;
-}
-
-.sidebar-nav-item:hover {
-  color: #fff;
-}
-
-.sidebar-nav-item.active {
-  color: #fff;
-  font-weight: 600;
-}
-
 #menu-icon-checkbox:checked + .sidebar {
   z-index: 10;
   visibility: visible;
@@ -189,6 +160,8 @@ li {
   color: #2a7ae2;
   text-decoration: none;
 }
+
+
 
 .e-mail:after {
   content: attr(domain) "\0040" attr(username);
@@ -239,6 +212,7 @@ li {
 }
 
 .footer .row {
+    column-gap: 21px;
     display: flex;
 }
 
@@ -279,7 +253,7 @@ li {
  */
 
 .copyright {
-    color: rgba(255, 255, 255, .5);
+    color: #828282;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
 }
@@ -287,23 +261,32 @@ li {
 .sidebar {
     background-color: transparent;
     bottom: 0;
-    color: rgba(255, 255, 255, .5);
-    font-family: "Source Code Pro", monospace;
-    font-size: 16px;
+    font-weight: 400;
     left: -18rem;
     overflow-y: auto;
     position: fixed;
     top: 0;
+    transition: all .3s ease-in-out;
     visibility: hidden;
     width: 18rem;
     -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
 }
 
-.site-description {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+.sidebar-nav-item {
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sidebar-nav-item:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.sidebar-nav-item.active {
+  color: #fff;
+  text-decoration: underline;
 }
 
 #particles-js {
