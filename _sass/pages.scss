@@ -207,15 +207,6 @@ li {
     padding-right: 1rem;
 }
 
-.footer .col {
-    width: 100%
-}
-
-.footer .row {
-    column-gap: 21px;
-    display: flex;
-}
-
 /*
  * Header
  */
@@ -307,8 +298,17 @@ li {
  * Utilities
  */
 
+.col {
+  width: 100%
+}
+
 .mb-0 {
     margin-bottom: 0;
+}
+
+.row {
+  column-gap: 21px;
+  display: flex;
 }
 
 .text-black {
