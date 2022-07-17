@@ -1,9 +1,7 @@
 ---
-layout: default
-title: Contacts
+layout: page
+title: 📫 Contacts
 ---
-
-# 📫 Contacts
 
 <p>
     Reach me at <span class="e-mail" username="ilozzops" domain="es.htk"></span>.

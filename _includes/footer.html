@@ -3,15 +3,33 @@
         <div class="row">
             <div class="col">
                 <ul class="author">
-                    <li class="author">{{  site.author.name  }}</li>
+                    <li class="author">{{ site.author.name }}</li>
                     <li class="author">
                         <span class="e-mail" username="ilozzops" domain="es.htk"></span>
                     </li>
                 </ul>
             </div>
             <div class="col">
-                {{  site.description  }}
+                {{ site.description }}
             </div>
+        </div>
+        <div>
+            <ul class="social-icons">
+                <li class="social-icon">
+                    <a href="https://github.com/{{ site.social_icons.github }}" target="_blank">
+                        <svg class="icon">
+                            <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="https://twitter.com/{{ site.social_icons.twitter }}" target="_blank">
+                        <svg class="icon">
+                            <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </footer>

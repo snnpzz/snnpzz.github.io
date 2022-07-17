@@ -207,6 +207,40 @@ li {
     padding-right: 1rem;
 }
 
+.social-icon {
+    float: left;
+    margin: 5px 10px 5px 0;
+}
+
+.social-icon:last-of-type {
+    margin-right: 0;
+}
+
+.social-icon a {
+    display: block;
+    padding: 7.5px;
+    border: 1px solid #e8e8e8;
+}
+
+.social-icon a:hover {
+    border-color: #dbdbdb;
+}
+
+.social-icon .icon {
+    display: inline-block;
+    fill: #828282;
+    height: 16px;
+    padding: 5px 3px 2px 5px;
+    vertical-align: text-bottom;
+    width: 16px;
+}
+
+.social-icons {
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+}
+
 /*
  * Header
  */
@@ -299,7 +333,11 @@ li {
  */
 
 .col {
-  width: 100%
+    width: 100%
+}
+
+.grey {
+    color: #828282;
 }
 
 .mb-0 {
@@ -307,8 +345,8 @@ li {
 }
 
 .row {
-  column-gap: 21px;
-  display: flex;
+    column-gap: 21px;
+    display: flex;
 }
 
 .text-black {

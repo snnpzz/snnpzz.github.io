@@ -4,6 +4,9 @@ author:
 description:      "Doing a Ph.D. in Computer Science at KTH"
 google_analytics: G-WRXEFS3BQQ
 paginate:         5
+social_icons:
+  github:           snnpzz
+  twitter:          snnpzz
 title:            "@snnpzz"
 url:              https://snnpzz.github.io
 
