@@ -12,14 +12,8 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    color: #2a7ae2;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #111;
-    text-decoration: underline;
+main {
+    flex: 1 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -197,6 +191,7 @@ li {
     color: #828282;
     font-family: "Source Sans", sans-serif;
     font-size: 14px;
+    margin-top: 2rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
@@ -276,6 +271,20 @@ li {
     font-family: "Source Code Pro", monospace;
     font-size: 21px;
     text-decoration: none;
+}
+
+/*
+ * Links
+ */
+
+a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #111;
+    text-decoration: underline;
 }
 
 /*
