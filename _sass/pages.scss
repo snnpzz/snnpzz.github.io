@@ -190,37 +190,20 @@ li {
 }
 
 .social-icon {
-    color: #828282;
-    float: left;
     list-style: none;
-    margin: 5px 10px 5px 0;
     padding-inline-start: 0;
 }
 
-.social-icon:last-of-type {
-    margin-right: 0;
-}
-
-.social-icon a {
-    border: 1px solid #e8e8e8;
-    display: block;
-    padding: 7.5px;
-}
-
-.social-icon a:hover {
-    border-color: #dbdbdb;
-}
-
 .social-icon .icon {
-    display: inline-block;
     fill: #828282;
     height: 16px;
-    vertical-align: text-bottom;
     width: 16px;
 }
 
 .social-icons {
-    display: table;
+    column-gap: 14px;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     margin: 0 auto;
     padding: 0;
@@ -322,20 +305,20 @@ a:hover {
 }
 
 .sidebar-nav-item {
-  color: #fff;
-  font-family: "Source Code Pro", monospace;
-  font-size: 16px;
-  text-decoration: none;
+    color: #fff;
+    font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .sidebar-nav-item:hover {
-  color: #fff;
-  text-decoration: underline;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .sidebar-nav-item.active {
-  color: #fff;
-  text-decoration: underline;
+    color: #fff;
+    text-decoration: underline;
 }
 
 #particles-js {
