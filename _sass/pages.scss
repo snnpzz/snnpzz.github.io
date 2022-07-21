@@ -192,8 +192,6 @@ li {
 .social-icon {
     list-style: none;
     padding-inline-start: 0;
-    height: 16px;
-    width: 16px;
 }
 
 .social-icon a {
@@ -203,6 +201,7 @@ li {
 }
 
 .social-icon .icon {
+    display: inline-block;
     fill: #828282;
     height: 16px;
     width: 16px;
