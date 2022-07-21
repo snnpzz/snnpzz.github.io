@@ -192,6 +192,14 @@ li {
 .social-icon {
     list-style: none;
     padding-inline-start: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.social-icon a {
+    display: block;
+    height: 16px;
+    width: 16px;
 }
 
 .social-icon .icon {
@@ -201,6 +209,7 @@ li {
 }
 
 .social-icons {
+    align-items: center;
     column-gap: 14px;
     display: flex;
     flex-direction: row;
