@@ -76,9 +76,6 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -103,6 +100,7 @@ li {
 .date {
     color: #828282;
     font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
 }
 
 .e-mail {
@@ -367,6 +365,9 @@ a:hover {
  */
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     position: relative;
     width: 100%;
 }
