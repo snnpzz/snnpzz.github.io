@@ -18,7 +18,7 @@ main {
 }
 
 li {
-    color: rgba(0, 0, 0, 0.5);
+    color: #828282;
     list-style-type: "—";
     padding-inline-start: 1em;
 }
@@ -31,10 +31,7 @@ li {
     margin-bottom: 4rem;
 }
 
-.date {
-    color: #ff0bac;
-    font-weight: 500;
-}
+
 
 .callout {
     background-color: rgba(223, 223, 223, 0.5);
@@ -132,22 +129,27 @@ li {
           transform: translateX(18rem);
 }
 
-.e-mail {
-  color: #2a7ae2;
-  text-decoration: none;
+
+
+.date {
+    color: #828282;
+    font-family: 'Source Code Pro', monospace;
 }
 
-
+.e-mail {
+    color: #2a7ae2;
+    text-decoration: none;
+}
 
 .e-mail:after {
-  content: attr(domain) "\0040" attr(username);
-  direction: rtl;
-  unicode-bidi: bidi-override;
+    content: attr(domain) "\0040" attr(username);
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
 
 .e-mail:hover {
-  color: #111;
-  text-decoration: underline;
+    color: #111;
+    text-decoration: underline;
 }
 
 .map {
@@ -174,7 +176,7 @@ li {
 .footer {
     border-top: 1px solid #e8e8e8;
     color: #828282;
-    font-family: "Source Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
     margin-top: 2rem;
     padding-bottom: 1rem;
