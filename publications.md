@@ -12,4 +12,4 @@ title: Publications
     </li>
 </ul>
 
-I'm on <a href="https://orcid.org/0000-0002-6899-6209">ORCID iD</a> too.
+<i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0000-0002-6899-6209">ORCID iD</a>
