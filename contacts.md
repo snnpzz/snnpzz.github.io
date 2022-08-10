@@ -30,10 +30,8 @@ title: 📫 Contacts
     Reach me at <span class="e-mail" username="ilozzops" domain="es.htk"></span>.
 </p>
 
-<p>
-    Follow me on <a href="https://github.com/snnpzz">GitHub</a> and <a href="https://twitter.com/snnpzz">Twitter</a>.
-</p>
-
-<p>
-    Connect with me on <a href="https://www.linkedin.com/in/snnpzz">LinkedIn</a>.
-</p>
+<i class="fa-brands fa-github"></i> <a href="https://github.com/snnpzz">GitHub</a>
+<br>
+<i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/snnpzz">LinkedIn</a>
+<br>
+<i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/snnpzz">Twitter</a>
