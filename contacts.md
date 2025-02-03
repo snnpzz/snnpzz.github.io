@@ -33,5 +33,3 @@ title: Contacts
 <i class="fa-brands fa-github"></i> <a href="https://github.com/snnpzz">GitHub</a>
 <br>
 <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/snnpzz">LinkedIn</a>
-<br>
-<i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/snnpzz">Twitter</a>
