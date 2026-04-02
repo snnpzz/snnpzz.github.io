@@ -20,9 +20,9 @@ title: Contacts
             Department of Computing and Learning Systems (CLS)
         </i>
         <br>
-        Kistagången 16
+        Lindstedtsvägen 30
         <br>
-        164 40 Kista, Sweden
+        114 28 Stockholm, Sweden
     </p>
 </div>
 
